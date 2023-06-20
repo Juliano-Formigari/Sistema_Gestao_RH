@@ -36,6 +36,10 @@
     python manage.py runserver;
     python manage.py migrate;
     python manage.py createsuperuser;
+    python manage.py startapp nomeDoApp;
 
     Juliano
     Admin123
+
+# Anotações e dicas importantes
+    Sempre que mover um 'app' para um subdiretório após a instalação, acrescentar no campo 'name' do arquivo 'apps.py' o diretório principal na frente do nome do app;
