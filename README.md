@@ -37,9 +37,14 @@
     python manage.py migrate;
     python manage.py createsuperuser;
     python manage.py startapp nomeDoApp;
+    pip install django-bootstrap-v5
+    pip freeze > requirements.txt
 
-    Juliano
-    Admin123
+    Juliano - Admin123
+    Greg - Greg123Greg
 
 # Anotações e dicas importantes
     Sempre que mover um 'app' para um subdiretório após a instalação, acrescentar no campo 'name' do arquivo 'apps.py' o diretório principal na frente do nome do app;
+
+    Dentro de core foi criado um subdiretório "core", para separar caso tenha outra template com o mesmo nome e não correr o
+    risco de pegar a primeira;
