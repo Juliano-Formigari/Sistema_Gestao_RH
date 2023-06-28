@@ -39,6 +39,7 @@
     python manage.py startapp nomeDoApp;
     pip install django-bootstrap-v5
     pip freeze > requirements.txt
+    python manage.py shell
 
     Juliano - Admin123
     Greg - Greg123Greg
