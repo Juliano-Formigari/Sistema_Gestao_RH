@@ -40,6 +40,8 @@
     pip install django-bootstrap-v5
     pip freeze > requirements.txt
     python manage.py shell
+    pip install django-bootstrap-form
+    python manage.py collectstatic - Comando utilizado pelo django para copiar todos os arquivos estáticos para somente um diretório. Este comando é utilizado no momento em que é feito o deploy.
 
     Juliano - Admin123
     Greg - Greg123Greg

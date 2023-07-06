@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'apps.registro_hora_extra',
     'apps.core',
     'bootstrap5',
+    'bootstrapform',
 ]
 
 MIDDLEWARE = [
@@ -78,18 +79,19 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 LANGUAGE_CODE = 'pt-br'
-
 TIME_ZONE = 'America/Sao_Paulo'
-
 USE_I18N = True
-
 USE_TZ = True
 
-STATIC_URL = 'static/'
-
+STATIC_URL = 'static/' # Nome que vai aparecer na URL. Ex: static/files/arquivo.png
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "static"), # Nome dos diretórios e subdiretórios em que o Django deve procurar os arquivos estáticos;
 ]
+STATIC_ROOT = os.path.join(BASE_DIR, "static")  # Nome do diretório que Django vai criar para copiar todos os arquivos estáticos,
+                                                # no momento de fazer o deploy;
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'login'
