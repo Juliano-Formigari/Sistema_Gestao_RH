@@ -87,7 +87,7 @@ STATIC_URL = 'static/' # Nome que vai aparecer na URL. Ex: static/files/arquivo.
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"), # Nome dos diretórios e subdiretórios em que o Django deve procurar os arquivos estáticos;
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, "static")  # Nome do diretório que Django vai criar para copiar todos os arquivos estáticos,
+#STATIC_ROOT = os.path.join(BASE_DIR, "static")  # Nome do diretório que Django vai criar para copiar todos os arquivos estáticos,
                                                 # no momento de fazer o deploy;
 
 MEDIA_URL = 'media/'
