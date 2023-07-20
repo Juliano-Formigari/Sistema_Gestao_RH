@@ -44,7 +44,7 @@
     python manage.py collectstatic - Comando utilizado pelo django para copiar todos os arquivos estáticos para somente um diretório. Este comando é utilizado no momento em que é feito o deploy.
 
     Juliano - Admin123
-    Greg - Greg123Greg
+    greg - Greg123Greg
 
 # Anotações e dicas importantes
     Sempre que mover um 'app' para um subdiretório após a instalação, acrescentar no campo 'name' do arquivo 'apps.py' o diretório principal na frente do nome do app;
