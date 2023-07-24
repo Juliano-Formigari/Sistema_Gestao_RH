@@ -60,6 +60,9 @@
     Instalar o ambiente virtual:
         Com o SSH ativo, executar o comando para instalar o python venv;
         sudo apt-get install python3-venv
-    Após executar a instalção é possível confirmar executando o comando "ls" que lista os diretórios;
+    Após executar a instlação é possível confirmar executando o comando "ls" que lista os diretórios;
     Ativar a venv executando o comando:
         source venv/bin/activate
+    Clonar o projeto do github dentro do servidor;
+    Instalar o requirements.txt com o comando:
+        pip install -r requirements.txt
