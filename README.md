@@ -51,3 +51,15 @@
 
     Dentro de core foi criado um subdiretório "core", para separar caso tenha outra template com o mesmo nome e não correr o
     risco de pegar a primeira;
+
+
+# Deploy do projeto
+    Conectar no servidor via terminal ssh;
+    Executar o comando:
+        sudo apt-get update && sudo apt-get upgrade;
+    Instalar o ambiente virtual:
+        Com o SSH ativo, executar o comando para instalar o python venv;
+        sudo apt-get install python3-venv
+    Após executar a instalção é possível confirmar executando o comando "ls" que lista os diretórios;
+    Ativar a venv executando o comando:
+        source venv/bin/activate
